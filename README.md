@@ -1,6 +1,5 @@
 # BooVAE: Boosting Approach for Continual Learning of VAEs
 
----
 
 PyTorch implementation of the paper:
  
