@@ -76,7 +76,7 @@ def run(_):
         args.max_tasks += 1
 
     # initialize weight and bias
-    os.environ["WANDB_API_KEY"] = "5532aa3f6f581daa33de08ae6bccd7bbdf271c12"
+    os.environ["WANDB_API_KEY"] = # API KEY HERE
     tags = [
         args.prior,
         args.dataset_name

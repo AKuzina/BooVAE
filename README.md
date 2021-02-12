@@ -24,8 +24,11 @@ conda env create -f environment.yml
 The command above will create as environment `boovae` with all the required dependencies. 
 
 #### Experiments for the paper
+All the hyperparameters can be found in the file `config.py`. 
+To start training use `run_experiment.py`, e.g. for VAE with standard normal prior: 
+
 ```bash
-python run_experiment.py ...
+python run_experiment.py --config.prior='standard' --config.dataset_name='mnist' --config.incremental=True --config.max_tasks=10
 ```
 
 ## Citation
