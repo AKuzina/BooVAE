@@ -80,4 +80,5 @@ def get_config():
     )
 
     default_config = ml_collections.ConfigDict(default_config)
+
     return default_config
